@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liqiao Yang | Academic Homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-inner">
+      <div class="profile">
+        <!-- 把你的照片命名为 photo.jpg 放在同一文件夹 -->
+        <img src="photo.jpg" alt="Liqiao Yang" class="avatar-photo">
+        <h1 class="profile-name">Liqiao Yang</h1>
+        <p class="profile-title">Ph.D. Candidate</p>
+        <p class="profile-affiliation">University of Szeged, Hungary</p>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#publications" class="nav-link">Selected Publications</a>
+        <a href="#conferences" class="nav-link">Conferences</a>
+      </nav>
+      <div class="sidebar-contact">
+        <!-- 替换为你的邮箱（两处都要改） -->
+        <a href="mailto:your.email@example.com" class="contact-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+          your.email@example.com
+        </a>
+        <!-- 替换为你的 ORCID 号码；没有就删掉整个 <a>…</a> -->
+        <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" class="contact-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-1.847-1.238-3.722-3.853-3.722h-2.466z"/></svg>
+          ORCID
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Mobile Header -->
+  <header class="mobile-header" id="mobileHeader">
+    <span class="mobile-name">Liqiao Yang</span>
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- About -->
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <p>I am a Ph.D. candidate in Economics at the <strong>University of Szeged</strong>, Hungary (since September 2022). My research primarily focuses on <strong>Applied Economics</strong>, particularly <strong>Regional Economics</strong>, <strong>Economic Geography</strong>, and <strong>International Trade</strong>, with an emphasis on industrial development and regional transformation. My research interests also extend to <strong>Industrial Economics</strong> and <strong>Marketing</strong>.</p>
+      <div class="research-interests">
+        <span class="tag">Applied Economics</span>
+        <span class="tag">Regional Economics</span>
+        <span class="tag">Economic Geography</span>
+        <span class="tag">International Trade</span>
+        <span class="tag">Industrial Economics</span>
+        <span class="tag">Marketing</span>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-list">
+        <div class="edu-item">
+          <div class="edu-year">2022.09 – Present</div>
+          <div class="edu-detail">
+            <strong>Ph.D. in Economics</strong>
+            <p>University of Szeged, Hungary</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2020.09 – 2022.07</div>
+          <div class="edu-detail">
+            <strong>M.A. in International Economics and Business</strong>
+            <p>Corvinus University of Budapest, Hungary</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2016.09 – 2017.05</div>
+          <div class="edu-detail">
+            <strong>Visiting Student</strong>
+            <p>University College Cork, Ireland</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2014.09 – 2018.06</div>
+          <div class="edu-detail">
+            <strong>B.A. in Insurance Studies</strong>
+            <p>Beijing Technology and Business University, China</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="section">
+      <h2 class="section-title">Selected Publications</h2>
+      <div class="pub-group">
+
+        <h3 class="pub-year">2026</h3>
+        <ol class="pub-list">
+          <li class="pub-item">
+            <span class="pub-authors"><strong>Yang, L.</strong>, &amp; Li, C.</span>
+            <span class="pub-title">Comparing EV Battery Policies in the EU and China: Implications for Innovation, Industrial Development, and Competitiveness.</span>
+            <span class="pub-journal"><em>World Electric Vehicle Journal</em>, 2026, 17(4), 208.</span>
+            <a href="https://doi.org/10.3390/wevj17040208" target="_blank" class="doi-link">[DOI]</a>
+          </li>
+          <li class="pub-item">
+            <span class="pub-authors"><strong>Yang, L.</strong>, &amp; Li, C.</span>
+            <span class="pub-title">Pricing and Financial Incentives for Modal Shift from Private Cars to Sustainable Transport: A Systematic Review.</span>
+            <span class="pub-journal"><em>Future Transportation</em>, 2026, 6(5), 201.</span>
+            <a href="https://doi.org/10.3390/futuretransp6050201" target="_blank" class="doi-link">[DOI]</a>
+          </li>
+          <li class="pub-item">
+            <span class="pub-authors"><strong>Yang, L.</strong>, S. Kanó, I., &amp; Kosztopulosz, A.</span>
+            <span class="pub-title">Manufacturing Development and Regional Socioeconomic Outcomes in the Context of Hungary’s Battery Industry Expansion.</span>
+            <span class="pub-journal"><em>Észak-magyarországi Stratégiai Füzetek (Strategic Issues of Northern Hungary)</em>, 2026.</span>
+          </li>
+        </ol>
+
+        <h3 class="pub-year">2025</h3>
+        <ol class="pub-list">
+          <li class="pub-item">
+            <span class="pub-authors"><strong>Yang, L.</strong>, Shen, N., Szakálné Kanó, I., Kosztopulosz, A., &amp; Hu, J.</span>
+            <span class="pub-title">Structural Evolution and Factors of the Electric Vehicle Lithium-Ion Battery Trade Network Among European Union Member States.</span>
+            <span class="pub-journal"><em>Sustainability</em>, 2025, 17(15), 6675.</span>
+            <a href="https://doi.org/10.3390/su17156675" target="_blank" class="doi-link">[DOI]</a>
+          </li>
+          <li class="pub-item">
+            <span class="pub-authors"><strong>Yang, L.</strong>, Szakálné Kanó, I., &amp; Kosztopulosz, A.</span>
+            <span class="pub-title">Characteristics and Factors of Spatial Differences in Electric Vehicle Battery Industry Development Among EU Member States.</span>
+            <span class="pub-journal"><em>Regional Statistics</em>, 2025, 15(3): 554–578.</span>
+            <a href="https://doi.org/10.15196/RS150307" target="_blank" class="doi-link">[DOI]</a>
+          </li>
+        </ol>
+
+        <h3 class="pub-year">2024</h3>
+        <ol class="pub-list">
+          <li class="pub-item">
+            <span class="pub-authors"><strong>Yang, L.</strong></span>
+            <span class="pub-title">Dynamic Interactions Among Exchange Rate, Natural Gas Demand, Production in Manufacturing and Battery Industry Export – Evidence from Hungary.</span>
+            <span class="pub-journal"><em>Gazdaság és Társadalom (Journal of Economy &amp; Society)</em>, 2024, 17(1): 29–47.</span>
+            <a href="https://doi.org/10.21637/GT.2024.1.02" target="_blank" class="doi-link">[DOI]</a>
+          </li>
+        </ol>
+
+      </div>
+    </section>
+
+    <!-- Conferences -->
+    <section id="conferences" class="section">
+      <h2 class="section-title">Conference Presentations</h2>
+      <div class="conf-list">
+        <div class="conf-item">
+          <span class="conf-year">2025</span>
+          <div>
+            <strong>Spatial Heterogeneity in Venture Capital and National Innovation Capabilities: New Evidence from European Countries</strong>
+            <p>40th RSEP International Conference on Economics, Finance and Business, Paris, France</p>
+            <p class="conf-meta">23–24 May 2025</p>
+          </div>
+        </div>
+        <div class="conf-item">
+          <span class="conf-year">2024</span>
+          <div>
+            <strong>Structural Evolution of Battery Trade Among EU Member States</strong>
+            <p>25th Annual Conference of the European Trade Study Group (ETSG), Athens, Greece</p>
+            <p class="conf-meta">12–14 September 2024 &ensp;|&ensp; Presented 14 Sep, 11:10–11:30 EEST, Room A21</p>
+          </div>
+        </div>
+        <div class="conf-item">
+          <span class="conf-year">2024</span>
+          <div>
+            <strong>Dynamic Interactions Among Exchange Rate, Natural Gas Demand, Production in Manufacturing and Battery Industry Export – Evidence from Hungary</strong>
+            <p>6th Conference in Cooperation with the European Association for Comparative Economic Studies (EACES), Faculty of Economics and Business Administration, University of Szeged, Hungary</p>
+            <p class="conf-meta">22–23 March 2024</p>
+          </div>
+        </div>
+        <div class="conf-item">
+          <span class="conf-year">2023</span>
+          <div>
+            <strong>Characteristics and Factors of Spatial Differences in EV Battery Industry Development Among EU Member States</strong>
+            <p>International Scientific Conference: Sustainability Transitions – Challenges and Innovative Solutions, Alexandre Lamfalussy Faculty of Economics, Sopron, Hungary</p>
+            <p class="conf-meta">23 November 2023 &ensp;|&ensp; Session 5: Sustainable Finance and Accounting, Sustainable Development, Room 4</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2026 Liqiao Yang. University of Szeged.</p>
+      <p class="visitor-count">Total visitors: <span id="busuanzi_value_site_uv"></span> &ensp;|&ensp; Total views: <span id="busuanzi_value_site_pv"></span></p>
+    </footer>
+  </main>
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
